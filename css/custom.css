@@ -1,0 +1,171 @@
+/** ADD YOUR AWESOME CODES HERE **/
+.heading-container {
+  max-width: 100% !important;
+}
+.content-container {
+  background-image: url("../images/background.png");
+}
+.groom-and-bride-name {
+  font-family: "Rajdhani", sans-serif !important;
+  font-family: "Great Vibes", cursive !important;
+  font-weight: 300;
+  font-size: 6vw !important;
+}
+.groom-and-bride-name-sub {
+  font-family: "Rajdhani", sans-serif !important;
+  font-family: "Great Vibes", cursive !important;
+  font-weight: 300;
+  font-size: 50px !important;
+}
+.section-title {
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
+  color: #e47a2e;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.first-main-info {
+  margin-bottom: 60px;
+}
+.about-info-description {
+  background-color: rgb(235, 235, 235);
+}
+
+/* propsal-moment */
+.proposal-moment-video {
+  text-align: center;
+}
+
+/* gallery */
+.gallery-row {
+  flex-direction: row !important;
+}
+.gallery-row > ul {
+  margin-left: calc(5%);
+}
+ul > li {
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+/* event */
+.event-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #c78665;
+  margin-bottom: 10px;
+}
+.event-time {
+  font-family: "Great Vibes", cursive;
+
+  font-family: "Rajdhani", sans-serif;
+
+  font-family: "Petit Formal Script", cursive;
+  text-align: center;
+  margin: 0 -15px;
+}
+.event-description {
+  text-align: center;
+}
+.wedding-description {
+  text-align: center;
+  margin-bottom: 5px !important;
+}
+.event-discription {
+  text-align: center;
+}
+
+/* countdown  */
+.countdown-container {
+  width: 100%;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.until {
+  width: 100%;
+  padding: 30px 10%;
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+}
+.until-component {
+  text-align: center;
+}
+
+.until-unit {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Petit Formal Script", cursive;
+}
+.until-numeric {
+  font-size: 60px;
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  color: #c78665;
+  margin-bottom: 17px;
+  line-height: 1.2em;
+}
+#comment-section {
+  max-height: 280px;
+  overflow-y: auto;
+}
+#comment-section::-webkit-scrollbar {
+  display: none;
+}
+#comment-section {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+#name::placeholder {
+  font-weight: 200;
+  font-style: italic;
+}
+#message::placeholder {
+  font-weight: 200;
+  font-style: italic;
+}
+.map-btn {
+  border: none;
+  padding: 5px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 10px 21px 8px;
+  border: 2px solid #c89d9c;
+  color: #818492;
+  border-radius: 20px;
+  cursor: pointer;
+  display: block;
+  background-color: transparent;
+  transition-duration: 0.2s;
+  margin-bottom: 15px;
+}
+.map-btn:hover {
+  background-color: #c89d9c;
+  color: white;
+}
+.music-player{
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 10px;
+  z-index: 999999;
+}
+#playPauseButton{
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
