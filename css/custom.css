@@ -155,18 +155,27 @@ ul > li {
   background-color: #c89d9c;
   color: white;
 }
-.music-player{
+.music-player {
   position: fixed;
   bottom: 15px;
   right: 15px;
   padding: 10px;
   z-index: 999999;
 }
-#playPauseButton{
+#playPauseButton {
   border: none;
   border-radius: 50%;
   width: 50px;
   height: 50px;
   position: relative;
   cursor: pointer;
+}
+.thank-you {
+  font-family: "Dancing Script", cursive;
+  font-size: 72px;
+  font-size: 4.8rem;
+  line-height: 1.8em;
+  margin: 0.8em 0;
+  font-weight: 500;
+  text-align: center;
 }
