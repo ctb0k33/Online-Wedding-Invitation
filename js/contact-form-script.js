@@ -10,14 +10,14 @@ async function submitForm() {
   var name = $("#name").val();
   var message = $("#message").val();
   if (name != "" && message != "") {
-    await fetch("http://localhost:5700/api/comments", {
+    await fetch("https://online-wedding-invitation-be.onrender.com/api/comments", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ name: name, comment: message }),
     }).then(function (response) {
-      fetch("http://localhost:5700/api/comments")
+      fetch("https://online-wedding-invitation-be.onrender.com/api/comments")
         .then((res) => res.json())
         .then((data) => {
           console.log(data);

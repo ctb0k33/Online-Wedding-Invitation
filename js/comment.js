@@ -1,4 +1,4 @@
-fetch("http://localhost:5700/api/comments")
+fetch("https://online-wedding-invitation-be.onrender.com/api/comments")
   .then((res) => res.json())
   .then((data) => {
     console.log(data);
