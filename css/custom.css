@@ -38,6 +38,7 @@
 /* propsal-moment */
 .proposal-moment-video {
   text-align: center;
+  margin-bottom: -20px;
 }
 
 /* gallery */
@@ -59,6 +60,7 @@ ul > li {
   line-height: 30px;
   color: #c78665;
   margin-bottom: 10px;
+  margin: 0 -20px;
 }
 .event-time {
   font-family: "Great Vibes", cursive;

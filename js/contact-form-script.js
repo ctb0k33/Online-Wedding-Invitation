@@ -10,13 +10,16 @@ async function submitForm() {
   var name = $("#name").val();
   var message = $("#message").val();
   if (name != "" && message != "") {
-    await fetch("https://online-wedding-invitation-be.onrender.com/api/comments", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ name: name, comment: message }),
-    }).then(function (response) {
+    await fetch(
+      "https://online-wedding-invitation-be.onrender.com/api/comments",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name: name, comment: message }),
+      }
+    ).then(function (response) {
       fetch("https://online-wedding-invitation-be.onrender.com/api/comments")
         .then((res) => res.json())
         .then((data) => {
@@ -27,7 +30,11 @@ async function submitForm() {
             <p style="margin-left:15px; margin-bottom:0px !important ">${comment.comment}</p></li>`;
             const ul = document.getElementById("comment-section");
             ul.insertAdjacentHTML("afterbegin", markup);
+            $("name").innerHTML = "";
+            $("message").innerHTML = "";
           });
+          $("#name").val("");
+          $("#message").val("");
         });
     });
   }
